@@ -59,4 +59,10 @@ parallelogram(84+100+30, 244+50, 50, 50, 60, 0, "green")
 triangle(65+100+30,200+50,40,90,"pink")
 triangle(117+50+30,210,40,270,"black")
 
-
+triangle(100 - 150,100 + 150,70,270,'yellow')
+triangle(30 - 150,170 + 150,70,0,'red')
+triangle(155 - 150,45 + 150,55,180,'skyblue')
+triangle(135 - 150,44 + 150,35,0,'purple')
+parallelogram(100 - 150,60 + 150,60,40,45,90,'greenyellow')
+triangle(70 - 150,29 + 150,35,90,'pink')
+parallelogram(128 - 150, 200 + 150, 40, 40, 90, 45, 'orange')
