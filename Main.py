@@ -1,5 +1,14 @@
 import turtle
 def triangle(x,y,side,angle,color):
+    '''
+    Function, drawing triangle.
+    :param x: upper left corner coordinate x
+    :param y: upper left corner coordinate y
+    :param side: length of a side
+    :param angle: angle
+    :param color: filling color
+    :return: None
+    '''
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
@@ -22,7 +31,8 @@ def parallelogram(x, y, a, b, angle,figang, color):
     :param y: upper left corner coordinate y
     :param a: length of a longer side
     :param b: length of a shorter side
-    :param angle: angle
+    :param angle: angle inside figure
+    :param figang: angle of a figure
     :param color: filling color
     :return: None
     '''
