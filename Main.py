@@ -48,7 +48,7 @@ def parallelogram(x, y, a, b, angle,figang, color):
     turtle.down()
     turtle.begin_fill()
     turtle.fillcolor(color)
-    turtle.pencolor("white")
+    turtle.pencolor('white')
     turtle.right(angle+figang)
     turtle.forward(a)
     turtle.right(180-angle)
