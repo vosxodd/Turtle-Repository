@@ -1,4 +1,10 @@
+# Case-study #1
+# Developers:   Aksenov A. (40%),
+#               Soloveychik D. (35%),
+#               Labuzov A. (38%)
 import turtle
+
+
 def triangle(x,y,side,angle,color):
     '''
     Function, drawing triangle.
@@ -23,6 +29,7 @@ def triangle(x,y,side,angle,color):
     turtle.forward(side*2**0.5)
     turtle.end_fill()
     turtle.left(225+angle)
+    
     
 def parallelogram(x, y, a, b, angle,figang, color):
     '''
@@ -52,6 +59,7 @@ def parallelogram(x, y, a, b, angle,figang, color):
     turtle.forward(b)
     turtle.left(figang)
     turtle.end_fill()
+    
     
 triangle(297,-150,80,90,'red')
 triangle(217,-313,80,270,'yellow')
